@@ -1,0 +1,15 @@
+.jumbotron {
+    background-color: #20315A;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+    display: inherit;
+}
+
+.citySearch {
+    background-color: lightgray;
+    float: left;
+    margin: 8px;
+}
