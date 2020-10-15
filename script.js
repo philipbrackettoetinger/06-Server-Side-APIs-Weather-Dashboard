@@ -53,6 +53,9 @@ function currentWeather(city){
 
         // Date format method is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
         var date = new Date(response.dt*1000).toLocaleDateString();
+        console.log(date);
+        console.log(response);
+        $("#current-city").html(response.name + " " + date);
 
         // Parse the response for name of city and link the date/icon
         // $(currentCity).html(response.name + "(" + date + ")" + "<img src =" + iconURL + ">");
@@ -125,6 +128,8 @@ function forecast(city){
             $("#fTemp"+i).html(tempF+"&#8457");
             $("#fHumidity"+i).html(humidity+"%");
         }
+        console.log(response)
+        
     });
 }
 

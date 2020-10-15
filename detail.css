@@ -1,15 +1,29 @@
-.jumbotron {
-    background-color: #20315A;
-    color: white;
+*{
+    box-sizing: border-box;
+    
 }
 
-.navbar {
-    text-align: center;
-    display: inherit;
+body {
+    
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-
-.citySearch {
-    background-color: lightgray;
-    float: left;
-    margin: 8px;
+h1{
+    text-align: center
+;
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
 }
